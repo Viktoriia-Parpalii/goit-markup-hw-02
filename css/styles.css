@@ -1,0 +1,129 @@
+:root {
+  --primary-brand: #4d5ae5;
+  --pressed-state: #404bbf;
+  --dark: #2e2f42;
+  --success: #31d0aa;
+  --Text: #434455;
+  --subtle-text: #8e8f99;
+  --accent: #e7e9fc;
+  --light: #f4f4fd;
+  --white-background: #ffffff;
+  --modal-background: #fcfcfc;
+}
+/* General */
+body {
+  font-family: 'Roboto', sans-serif;
+  color: var(--Text);
+  letter-spacing: 0.02em;
+  background-color: var(--white-background);
+}
+.list {
+  list-style: none;
+}
+h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.1;
+  color: var(--dark);
+}
+h3 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  color: var(--dark);
+}
+p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+/* Header */
+.logo {
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  line-height: 1.17;
+  display: flex;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--primary-brand);
+}
+.logo > span {
+  color: var(--dark);
+}
+.main-navigation a {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--dark);
+}
+
+.address a {
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--Text);
+}
+
+/* Main page */
+
+/* Hero */
+.hero {
+  background-color: var(--dark);
+  font-size: 56px;
+  line-height: 1.07;
+  font-style: normal;
+  text-align: center;
+  font-weight: 700;
+}
+.hero-title {
+  color: var(--white-background);
+}
+.hero button {
+  font-family: 'Roboto', sans-serif;
+  width: 169px;
+  height: 56px;
+  background: var(--primary-brand);
+  font-weight: 500;
+  color: var(--white-background);
+  font-size: 16px;
+  line-height: 1.5;
+  cursor: pointer;
+}
+
+/* Active */
+.hero button:hover,
+.hero button:focus {
+  background-color: var(--pressed-state);
+}
+.main-navigation a:hover,
+.main-navigation a:focus,
+.address a:hover,
+.address a:focus {
+  color: var(--pressed-state);
+}
+/* Footer */
+.footer {
+  background-color: var(--dark);
+}
+.footer .footer-logo,
+.footer-text {
+  color: var(--light);
+}
+
+/* Portfolio */
+
+/* Filter */
+.portfolio button {
+  font-family: 'Roboto', sans-serif;
+  width: 116px;
+  height: 48px;
+  background: var(--accent);
+  font-weight: 500;
+  color: var(--primary-brand);
+  font-size: 16px;
+  line-height: 1.5;
+  cursor: pointer;
+}
+.portfolio button:hover,
+.portfolio button:focus {
+  background-color: var(--pressed-state);
+  color: var(--white-background);
+}
