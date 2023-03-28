@@ -15,30 +15,36 @@ body {
   font-family: 'Roboto', sans-serif;
   color: var(--Text);
   letter-spacing: 0.02em;
-  background-color: var(--white-background);
 }
 .list {
   list-style: none;
 }
-h2 {
+.link {
+  text-decoration: none;
+}
+.title-two {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.1;
+  line-height: 1.11;
   color: var(--dark);
+  text-align: center;
+
+  text-transform: capitalize;
 }
-h3 {
+.title-three {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   color: var(--dark);
 }
-p {
+.item {
   font-size: 16px;
   line-height: 1.5;
 }
 /* Header */
 .logo {
   font-family: 'Raleway', sans-serif;
+  font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
   display: flex;
@@ -49,14 +55,16 @@ p {
 .logo > span {
   color: var(--dark);
 }
-.main-navigation a {
+.navigation a {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   color: var(--dark);
 }
-
-.address a {
+.address {
+  font-style: normal;
+}
+.address-item {
   font-size: 16px;
   line-height: 1.5;
   color: var(--Text);
@@ -67,16 +75,16 @@ p {
 /* Hero */
 .hero {
   background-color: var(--dark);
+}
+.hero-title {
+  color: var(--white-background);
   font-size: 56px;
   line-height: 1.07;
   font-style: normal;
   text-align: center;
   font-weight: 700;
 }
-.hero-title {
-  color: var(--white-background);
-}
-.hero button {
+.hero-button {
   font-family: 'Roboto', sans-serif;
   width: 169px;
   height: 56px;
@@ -86,6 +94,15 @@ p {
   font-size: 16px;
   line-height: 1.5;
   cursor: pointer;
+  letter-spacing: 0.04em;
+}
+
+/* Section 3 */
+.team {
+  background-color: var(--light);
+}
+.team-icon {
+  background-color: var(--white-background);
 }
 
 /* Active */
@@ -93,8 +110,8 @@ p {
 .hero button:focus {
   background-color: var(--pressed-state);
 }
-.main-navigation a:hover,
-.main-navigation a:focus,
+.navigation a:hover,
+.navigation a:focus,
 .address a:hover,
 .address a:focus {
   color: var(--pressed-state);
@@ -111,7 +128,7 @@ p {
 /* Portfolio */
 
 /* Filter */
-.portfolio button {
+.filter-btn {
   font-family: 'Roboto', sans-serif;
   width: 116px;
   height: 48px;
@@ -122,8 +139,20 @@ p {
   line-height: 1.5;
   cursor: pointer;
 }
-.portfolio button:hover,
-.portfolio button:focus {
+.filter-btn:hover,
+.filter-btn:focus {
   background-color: var(--pressed-state);
   color: var(--white-background);
+}
+
+/* Portfolio list */
+.portfolio-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  color: var(--dark);
+}
+.portfolio-item {
+  font-size: 16px;
+  line-height: 1.5;
 }
