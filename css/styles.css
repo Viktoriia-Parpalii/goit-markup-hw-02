@@ -15,6 +15,7 @@ body {
   font-family: 'Roboto', sans-serif;
   color: var(--Text);
   letter-spacing: 0.02em;
+  background-color: var(--white-background);
 }
 .list {
   list-style: none;
@@ -28,14 +29,15 @@ body {
   line-height: 1.11;
   color: var(--dark);
   text-align: center;
-
   text-transform: capitalize;
+  letter-spacing: 0.02em;
 }
 .title-three {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   color: var(--dark);
+  letter-spacing: 0.02em;
 }
 .item {
   font-size: 16px;
@@ -52,7 +54,7 @@ body {
   text-transform: uppercase;
   color: var(--primary-brand);
 }
-.logo > span {
+.logo-studio {
   color: var(--dark);
 }
 .navigation a {
@@ -132,12 +134,13 @@ body {
   font-family: 'Roboto', sans-serif;
   width: 116px;
   height: 48px;
-  background: var(--accent);
+  background-color: var(--accent);
   font-weight: 500;
   color: var(--primary-brand);
   font-size: 16px;
   line-height: 1.5;
   cursor: pointer;
+  letter-spacing: 0.04em;
 }
 .filter-btn:hover,
 .filter-btn:focus {
@@ -151,8 +154,11 @@ body {
   font-size: 20px;
   line-height: 1.2;
   color: var(--dark);
+  letter-spacing: 0.02em;
 }
 .portfolio-item {
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--Text);
 }
